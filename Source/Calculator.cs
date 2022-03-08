@@ -1,23 +1,23 @@
 namespace Source;
 
-public class Calculator
+public static class Calculator
 {
-    public int Add(int a, int b)
+    public static int Add(int a, int b)
     {
         return a + b;
     }
 
-    public int Sub(int a, int b)
+    public static int Sub(int a, int b)
     {
         return a - b;
     }
 
-    public int Mul(int a, int b)
+    public static int Mul(int a, int b)
     {
         return a * b;
     }
 
-    public int Div(int a, int b)
+    public static int Div(int a, int b)
     {
         if (b is 0)
         {
