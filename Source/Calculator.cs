@@ -19,10 +19,6 @@ public static class Calculator
 
     public static int Div(int a, int b)
     {
-        if (b is 0)
-        {
-            throw new DivideByZeroException();
-        }
         return a / b;
     }
 }
